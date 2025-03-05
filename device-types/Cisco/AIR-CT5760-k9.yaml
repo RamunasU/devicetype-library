@@ -1,0 +1,105 @@
+manufacturer: Cisco
+model: AIR-CT5760-K9
+slug: cisco-air-ct5760-k9
+part_number: AIR-CT5520-K9
+u_height: 1.0
+is_full_depth: true
+weight: 8.9
+weight_unit: 'Kilograms'
+comments: ''
+console-ports:
+- name: Con
+  type: rj-45
+power-ports:
+- name: PS1
+  type: iec-60320-c14
+  maximum_draw: 350
+  allocated_draw: null
+- name: PS2
+  type: iec-60320-c14
+  maximum_draw: 350
+  allocated_draw: null
+interfaces:
+- name: CIMC
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: MGMT
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 1
+  type: 10gbase-t
+  enabled: true
+  mgmt_only: false
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 2
+  type: 10gbase-t
+  enabled: true
+  mgmt_only: false
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 3
+  type: 10gbase-t
+  enabled: true
+  mgmt_only: false
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 4
+  type: 10gbase-t
+  enabled: true
+  mgmt_only: false
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 5
+  type: 10gbase-t
+  enabled: true
+  mgmt_only: false
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: Port 6
+  type: 10gbase-t
+  enabled: true
+  mgmt_only: false
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: RP
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: SP
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
